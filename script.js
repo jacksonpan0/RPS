@@ -4,7 +4,7 @@ computerWins = 0;
 let playerChoice = "";
 let computerChoice = "";
 let results = "";
-let titleCard = "Rock Paper Scissor Showdown";
+let titleCard = "Let the battle begin...";
 //Get computer choice function, uses random to have the computer randomly select RPS
 function getComputerChoice() {
     let computerChoice = "Scissors";

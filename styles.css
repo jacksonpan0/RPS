@@ -1,11 +1,45 @@
-
 html {
     height: 100%;
+}
+@font-face {
+    font-family: "Fuggles";
+    src: url(Fuggles-Regular.ttf);
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: lightslategray;
+    background-image: url('https://i.pinimg.com/originals/f4/58/48/f458480517fb9b7942d7cb5b1fce7da4.gif');
+    background-size: 100%;
 }
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 60px 90px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    border: 8px solid;
+    border-color: transparent;
+    border-radius: 25px;
+}
+.font {
+    font-family: "Fuggles";
+    font-size: 50px;
+    font-weight: 600px;
+    opacity: 1;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+.btn {
+    font-family: "Fuggles";
+    font-size: 50x;
+    letter-spacing: 2px;
+    width:100px;
+    height:100px;
+  }
